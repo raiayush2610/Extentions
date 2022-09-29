@@ -1,0 +1,83 @@
+#slider {
+    position: fixed;
+    z-index: 9000000000000000000;
+    top: 0px;
+    right: 0px;
+
+    background-color : rgb(100, 237, 130);
+    width : 0px;
+    transition: 0.4s;
+
+    height: 100vh; 
+    overflow-y : auto;
+}
+
+
+/* Slider header, footer and body tags below */
+/* add css stylesheets for slider child elements below*/
+#sheader {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: #434c85;
+    text-align:center;
+    z-index: 5;
+    box-shadow: 0 0 5px #09496c;
+}
+
+#sheader > div > h1, #sfooter >  h2 {
+    color: white !important;
+}
+
+#sbodycontainer {
+    color: rgb(205, 36, 36);
+}
+
+
+
+#extractBtn:hover, #savepdf:hover {
+    background-color: #035b8a;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+/* The extract buttons inside of slider */
+.internal_button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0077b5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.internal_button:hover {background-color: #035b8a}
+
+.internal_button:active {
+    background-color: #035b8a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+#deepscan {
+    padding: 10px;
+    opacity: 100% !important;
+}
+
+
+
+textarea {
+    margin: 1px;
+    padding-right: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    height: 200px !important;
+    
+}
+
